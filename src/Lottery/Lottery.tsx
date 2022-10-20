@@ -6,7 +6,7 @@ interface LotteryProps extends React.PropsWithChildren {
 
 const Lottery: React.FC<LotteryProps> = props => {
   return (
-    <div className="lottery">
+    <div className="lottery-numbers">
       <h1>{props.number}</h1>
     </div>
   );
